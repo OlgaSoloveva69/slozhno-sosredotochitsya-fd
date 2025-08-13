@@ -17,7 +17,12 @@
   --color-text: #353430;
   --text-card: #353430;
   --zagolovoc-card: #353430;
-  --button-hover: #353430; 
+  --button-hover: rgb(50, 49, 45, 0.4); 
+  --button-focus: #353430;
+  --decor-ugol: #353430;
+  --decor-rec: #FFF1F7;
+  --shadow-footer: #FF0070;
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,5 +36,9 @@
     --text-card: #353430;
     --zagolovoc-card: #353430;
     --button-hover: #353430;
+    --button-focus: #353430;
+    --decor-ugol: #353430;
+    --decor-rec: #FFF1F7;
+    --shadow-footer: #FF0070;
   }
 }

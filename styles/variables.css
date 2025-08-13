@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --shrift: "IBM Plex Mono", sans-serif;
+  --shrift: "IBM Plex Mono", monospace;
   --size-shrift: 18px;
   --size-shrift-footer: 6.44em;
   --bg-color: #000028;
@@ -21,5 +21,10 @@
   --radius-ellipse: 50%;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+  --button-focus: #FF0070;
+  --button-hover: rgb(255, 0, 112, 0.4);
+  --decor-ugol: #FF0070;
+  --decor-rec: #FF0070;
+  --shadow-footer: #FF0070;
 }
 
