@@ -168,7 +168,7 @@ h1 {
 }
 
 .title-card {
-  color: var(--zagolovoc-card);
+  color: var(--title-card);
   align-self: center;
   justify-self: start;
   font-size: var(--size-shrift);
@@ -201,7 +201,7 @@ h1 {
   gap: 10px;
 }
 
-.title-decor-spisok {
+.title-decor-list {
   font-weight: var(--font-weight-normal);
   font-size: var(--size-shrift);
   color: var(--color-text);
@@ -235,7 +235,7 @@ h1 {
   line-height: 83%;
 }
 
-.zagolovoc-footer {
+.title-footer {
   justify-self: center;
   text-shadow: 2px 2px 0 var(--shadow-footer);
   color: var(--color-text-header_footer);
@@ -285,7 +285,7 @@ h1 {
     margin-top: 3px;
   }
 
-  .zagolovoc-footer {
+  .title-footer {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -455,7 +455,7 @@ h1 {
     min-height: 768px;
   }
 
-  .zagolovoc-footer {
+  .title-footer {
     font-size: 157px;
   }
 }
